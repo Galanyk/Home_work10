@@ -15,21 +15,33 @@
     text-decoration: none;
 }
 
-.link:hover {
-    background-color: cyan;
-}
 
-.item:hover .list-product {
-    position: absolute;
-
-}
-.list-product {
-    position: absolute;
+.link-product {
     display: block;
     padding: 20px 50px 20px 50px; 
     text-decoration: none;
+    background-color: darkorange;
 }
+
 
 .link-product:hover {
     background-color: mediumaquamarine;
+}
+
+.list-product {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.item {
+    position: relative;
+}
+
+.item:hover .list-product {
+    display: block;
+}
+
+.item:hover .link {
+    background-color: cyan;
 }
