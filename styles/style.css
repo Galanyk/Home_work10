@@ -15,14 +15,12 @@
     text-decoration: none;
 }
 
-
 .link-product {
     display: block;
-    padding: 20px 50px 20px 50px; 
+    padding: 20px 40px 20px 40px; 
     text-decoration: none;
     background-color: darkorange;
 }
-
 
 .link-product:hover {
     background-color: mediumaquamarine;
@@ -45,3 +43,34 @@
 .item:hover .link {
     background-color: cyan;
 }
+
+.link-sub {
+    display: block;
+    text-decoration: none;
+    background-color:darkorange;
+    padding: 20px 50px 20px 50px;
+}
+
+.item-product:hover .list-sub {
+    display: block;
+}
+
+.item-product:hover .link-sub {
+    background-color: cyan;
+}
+
+.link-sub:hover {
+    background-color: cyan;
+}
+
+.list-sub {
+    position: absolute;
+    left: 143px;
+    top: auto;
+    display: none;
+}
+
+.item-product {
+    position: relative;
+}
+
