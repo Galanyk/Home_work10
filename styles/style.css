@@ -1,0 +1,35 @@
+.item {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.link {
+    display: block;
+    padding: 20px 40px 20px 40px;
+    background-color: coral;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: cyan;
+}
+
+.item:hover .list-product {
+    position: absolute;
+
+}
+.list-product {
+    position: absolute;
+    display: block;
+    padding: 20px 50px 20px 50px; 
+    text-decoration: none;
+}
+
+.link-product:hover {
+    background-color: mediumaquamarine;
+}
