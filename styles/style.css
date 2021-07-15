@@ -22,7 +22,7 @@ body {
 
 .link {
     display: block;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 60px 20px 60px;
     background-color: coral;
     text-decoration: none;
     color: darkred;
@@ -30,14 +30,10 @@ body {
 
 .link-product {
     display: block;
-    padding: 20px 40px 20px 40px; 
+    padding: 20px 60px 20px 60px; 
     text-decoration: none;
     background-color: darkorange;
     white-space: nowrap;
-}
-
-.link-product:hover {
-    background-color: red;
 }
 
 .list-product {
@@ -54,17 +50,15 @@ body {
     background-color: cyan;
 }
 
-
 .item:hover .list-product {
     display: block;
 }
-
 
 .link-sub {
     display: block;
     text-decoration: none;
     background-color:darkorange;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 60px 20px 60px;
     white-space: nowrap;
 }
 
@@ -76,7 +70,7 @@ body {
     background-color: cyan;
 }
 
-.link-sub:hover {
+.item-sub:hover .link-sub {
     background-color: cyan;
 }
 
@@ -89,5 +83,27 @@ body {
 
 .item-product {
     position: relative;
+}
+
+.nav {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: justify;
+}
+
+.section {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.header {
+    background-color: coral; 
 }
 
