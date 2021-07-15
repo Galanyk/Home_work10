@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
 .item {
     float: left;
 }
@@ -13,6 +25,7 @@
     padding: 20px 40px 20px 40px;
     background-color: coral;
     text-decoration: none;
+    color: darkred;
 }
 
 .link-product {
@@ -20,10 +33,11 @@
     padding: 20px 40px 20px 40px; 
     text-decoration: none;
     background-color: darkorange;
+    white-space: nowrap;
 }
 
 .link-product:hover {
-    background-color: mediumaquamarine;
+    background-color: red;
 }
 
 .list-product {
@@ -36,26 +50,29 @@
     position: relative;
 }
 
+.item:hover .link {
+    background-color: cyan;
+}
+
+
 .item:hover .list-product {
     display: block;
 }
 
-.item:hover .link {
-    background-color: cyan;
-}
 
 .link-sub {
     display: block;
     text-decoration: none;
     background-color:darkorange;
     padding: 20px 50px 20px 50px;
+    white-space: nowrap;
 }
 
 .item-product:hover .list-sub {
     display: block;
 }
 
-.item-product:hover .link-sub {
+.item-product:hover .link-product {
     background-color: cyan;
 }
 
@@ -65,8 +82,8 @@
 
 .list-sub {
     position: absolute;
-    left: 143px;
-    top: auto;
+    left: 173px; 
+    top: 0;
     display: none;
 }
 
