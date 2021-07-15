@@ -82,7 +82,7 @@ body {
 
 .list-sub {
     position: absolute;
-    left: 173px; 
+    left: 100%; 
     top: 0;
     display: none;
 }
